@@ -23,7 +23,7 @@ func (t *TokenSource) Token() (*oauth2.Token, error) {
 
 func (c *VpsieClients) Session() (*govpsie.Client, error) {
 	// accessToken := os.Getenv("VPSIE_ACCESS_TOKEN")
-	accessToken := ""
+	accessToken := "UxMfu07HVPoH3C7jdfwwbYuGoBe0alBKZ6L4ACLNNuCiYzDxOSMLdyjpGIvjAzzN"
 	if accessToken == "" {
 		return nil, errors.New("env var VPSIE_ACCESS_TOKEN is required, set in os env")
 	}
